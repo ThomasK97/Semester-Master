@@ -245,3 +245,51 @@ background:url(/images/scientific-2040795_1280.jpg) center no-repeat;
     text-transform: uppercase;
     margin: 2rem 0;
 }
+
+/*testimonials*/
+
+.testimonials{
+    width:100%;
+    height: 80vh;
+    background: linear-gradient(135deg, rgba(95, 115, 129, 0.9) 0%, rgba(43, 42, 46, 0.8) 
+    100%);
+    background-size: cover;
+    position: relative; 
+}
+.testimonials ::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4.7rem;
+    background:url("/images/wave-small-reversed.png") center no-repeat;
+    background-size: cover;
+}
+
+/*begin adventure*/
+
+.adventure-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, mnmax(25rem, 1fr));
+    grid-gap: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.adventure-grid-item p{
+    color: rgba(0,0,0,0.7);
+}
+
+footer{
+    padding: 2.5rem 0;
+    background-color: #5F7381;
+    text-align: center;
+    color:#fafafa
+}
+
+
+
+
+
+
+
