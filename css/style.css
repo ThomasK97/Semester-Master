@@ -295,11 +295,11 @@ footer{
 
 .contact-form{
     width: 85%;
-    max-width: 600px;
+    max-width: 800px;
     background:#fafafa;
     position: absolute;
     top: 28%;
-    left:2%;
+    left:8%;
     padding: 30px 40px;
     box-sizing: border-box;
     border-radius: 8px;
