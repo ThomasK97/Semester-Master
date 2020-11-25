@@ -234,6 +234,7 @@ background:url("/images/mavis-cw-164128.jpg") center no-repeat;
 background:url(/images/scientific-2040795_1280.jpg) center no-repeat;
 }
 
+
 .activities-grid-item i{
     font-size: 4rem;
     color: #fafafa
@@ -285,6 +286,51 @@ footer{
     background-color: #5F7381;
     text-align: center;
     color:#fafafa
+}
+
+.contact-form{
+    width: 85%;
+    max-width: 600px;
+    background:#fafafa;
+    position: absolute;
+    top: 25%;
+    left:1%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: 'Aldrich', sans-serif;
+}
+.contact-form h1{
+    margin-top: 0;
+    font-weight: 200;
+}
+.txtb{
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.txtb label{
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    
+}
+.txtb input,.txtb textarea{
+width: 100%;
+border: none;
+background: none;
+outline: none;
+font-size: 18px;
+margin-top: 6px;
+}
+
+.btn{
+    cursor: pointer;
 }
 
 /*media queries*/
