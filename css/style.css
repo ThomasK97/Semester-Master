@@ -281,12 +281,17 @@ background:url(/images/scientific-2040795_1280.jpg) center no-repeat;
     color: rgba(0,0,0,0.7);
 }
 
+/*footer*/
+
 footer{
     padding: 2.5rem 0;
     background-color: #5F7381;
     text-align: center;
     color:#fafafa
 }
+
+
+/*contact form*/
 
 .contact-form{
     width: 85%;
