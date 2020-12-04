@@ -11,6 +11,12 @@ html{
     font-family: 'Nunito', sans-serif;
     font-size: 10px;
     box-sizing: border-box;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 a{
@@ -53,7 +59,7 @@ header{
 nav{
     width: 100%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     padding: 1rem 0;
     border-bottom: 1px solid rgba(255,255,255,.2);
@@ -118,8 +124,13 @@ margin: 1.5rem 0;
     100%), url("/images/andrew-ruiz-348421.jpg") center no-repeat;
     background-size: cover;
     position: relative;
-   
-   
+    display: flex;
+    justify-content: center;
+}
+
+hero-container {
+    display: flex;
+    justify-content: center;
 }
 
 .hero::before{
@@ -136,7 +147,7 @@ margin: 1.5rem 0;
 
 .main-message{
     width: 100%;
-    max-width: 50rem;
+    max-width: 66rem;
     color:#fafafa;
     text-transform: uppercase;
     transform: translateY(20%);
@@ -172,7 +183,8 @@ margin: 1.5rem 0;
 
 .explore{
     padding: 0;
-
+    display: flex;
+    justify-content: center;
 }
 .title-heading{
     text-align: center;
@@ -270,11 +282,19 @@ background:url(/images/scientific-2040795_1280.jpg) center no-repeat;
 
 /*begin adventure*/
 
+.adventure-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .adventure-grid{
     display: grid;
     grid-template-columns: repeat(auto-fit, mnmax(25rem, 1fr));
     grid-gap: 2.5rem;
     margin-bottom: 2rem;
+    
 }
 
 .adventure-grid-item p{
@@ -287,9 +307,13 @@ footer{
     padding: 2.5rem 0;
     background-color: #5F7381;
     text-align: center;
-    color:#fafafa
+    color:#fafafa;
+    flex-shrink: 0;
 }
 
+.base-container {
+    flex: 1 0 auto;
+}
 
 /*contact form*/
 
@@ -447,4 +471,9 @@ margin-top: 6px;
     .hero{
         height: 75vh;
     }
+}
+
+
+.emptyspace {
+    height: 200px;
 }
