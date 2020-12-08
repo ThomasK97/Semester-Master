@@ -246,6 +246,10 @@ background:url("/images/mavis-cw-164128.jpg") center no-repeat;
 background:url(/images/scientific-2040795_1280.jpg) center no-repeat;
 }
 
+.location-picture{
+    background:url(/images/IMG_2800.jpg) center no-repeat;
+}
+
 
 .activities-grid-item i{
     font-size: 4rem;
